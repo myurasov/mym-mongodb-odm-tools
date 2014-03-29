@@ -1,0 +1,29 @@
+{
+  "name": "myurasov/mym-mongodb-odm-tools",
+  "description": "MongoDB ODM Tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikhail Yurasov",
+      "email": "me@yurasov.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+
+    "jms/serializer": "~0.15",
+    "symfony/validator": "~2.0",
+    "doctrine/mongodb-odm": "*",
+
+    "php": "~5.3"
+  },
+
+  "suggest": {
+  },
+
+  "autoload": {
+    "psr-0": {
+      "mym\\MongoDB\\ODM": "src/"
+    }
+  }
+}
