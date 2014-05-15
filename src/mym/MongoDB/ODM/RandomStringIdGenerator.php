@@ -5,7 +5,7 @@
  * @copyright 2014 Mikhail Yurasov <me@yurasov.me>
  */
 
-namespace mym\ODM;
+namespace mym\MongoDB\ODM;
 
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Id\AbstractIdGenerator;
