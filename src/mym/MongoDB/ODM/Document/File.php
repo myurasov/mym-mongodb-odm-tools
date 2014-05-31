@@ -10,6 +10,9 @@ use mym\MongoDB\ODM\Traits\TimestampTrait;
 
 /**
  * @ODM\Document(collection="files")
+ * @ODM\MappedSuperclass
+ * @ODM\HasLifecycleCallbacks
+ *
  * @Serializer\ExclusionPolicy("all")
  */
 class File
