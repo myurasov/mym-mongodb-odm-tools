@@ -17,6 +17,7 @@ use JMS\Serializer\Annotation as Serializer;
  *  collection="images"
  * )
  *
+ * @ODM\MappedSuperclass
  * @ODM\HasLifecycleCallbacks
  *
  * @Serializer\ExclusionPolicy("all")
