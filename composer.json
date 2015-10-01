@@ -14,6 +14,7 @@
     "jms/serializer": "~0.15",
     "symfony/validator": "~2.0",
     "doctrine/mongodb-odm": "*",
+    "myurasov/mym-utils": "^1.0",
 
     "php": "~5.3"
   },
